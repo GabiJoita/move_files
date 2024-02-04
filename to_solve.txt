@@ -1,0 +1,9 @@
+Sa se scrie o aplicatie care sa poata fi rulata din linie de comanda (terminal) si care sa primeasca ca argumente ale comenzii doua fisiere si unul dintre urmatoarele semne: >, ==, intre fisiere.
+
+python nume_app.py test1.txt > test2.csv
+python nume_app.py test1.txt == test2.csv
+
+Semnificatia semnelor:
+muta continutul fisierului din stanga in fisierul din dreapta
+== - compara continutul celor 2 fisiere si returneaza True daca fisierele contin aceeasi informatie, altfel False
+Tipurile de fisiere din care se poate citi si in care se poate scrie sunt: .txt, .csv, .excel, (pdf)
